@@ -1,4 +1,4 @@
-// Function that converts cryllic to latin
+// Function that converts texts from cryllic to latin
 
 exports.transliterate = (word = '') => {
   return word
