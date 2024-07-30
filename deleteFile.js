@@ -1,4 +1,4 @@
-// This function will delete a file with provided filename(destination)
+// This function will check if the provided file exists and deletes if exists
 const fs = require('fs').promises;
 
 exports.deleteFile = async (filename) => {
