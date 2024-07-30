@@ -9,6 +9,9 @@ exports.deleteFile = async (filename) => {
 
       // Delete if file exists
       fs.unlink(filename);
-    } catch (err) {}
+    } catch (err) {
+      // Do whatever you want when error occured.
+      console.log(err);
+    }
   }
 };
